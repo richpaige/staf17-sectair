@@ -1,0 +1,67 @@
+\documentclass[runningheads,a4paper]{llncs}
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{algorithm2e}
+\usepackage{url, listings, color}
+%\usepackage{hyperref}
+
+%two column float page must be 90% full
+\renewcommand\dblfloatpagefraction{.99}
+%two column top float can cover up to 80% of page
+\renewcommand\dbltopfraction{.99}
+%float page must be 90% full
+\renewcommand\floatpagefraction{.99}
+%top float can cover up to 80% of page
+\renewcommand\topfraction{.99}
+%bottom float can cover up to 80% of page
+\renewcommand\bottomfraction{.99}
+%at least 10% of a normal page must contain text
+\renewcommand\textfraction{.01}
+
+\newcommand{\code}[1] {{\footnotesize\sffamily #1}}
+
+\titlerunning{SECT-AIR: Software Engineering Costs and Timescales — Aerospace Initiative for Reduction}
+\authorrunning{SECT-AIR Consortium Partners}
+
+\begin{document}
+
+\title{SECT-AIR: Software Engineering Costs and Timescales — Aerospace Initiative for Reduction}
+
+\author{Richard F. Paige$^{1}$, Athanasios Zolotas$^{1}$ Dimitrios S. Kolovos$^{1}$, John A. McDermid$^{1}\\
+Mike Bennett$^{2}$, Stuart Hutchesson$^{2}$, Andrew Hawthorn$^{3}$\\%
+%
+\footnotesize{
+\{richard.paige, thanos.zolotas, dimitris.kolovos, john.mcdermid\}@york.ac.uk, \\
+\{mike.bennett, stuart.hutchesson\}@rolls-royce.com\\
+andrew.hawthorn@altran.com
+}
+%
+\institute{
+$^{1}$University of York, United Kingdom,\\
+$^{2}$Rolls-Royce, United Kingdom,\\
+$^{3}$Altran Praxis, United Kingdom
+}}
+
+\maketitle
+
+\begin{abstract}
+Software is critical to the majority of functionality in avionics and aerospace systems. The amount of safety-related software in avionics is growing rapidly (doubling in size around every four years), and the costs of software programmes in industry are increasingly unaffordable -- safety-related code can cost upwards of USD \$150 per line. At the same time, demands from avionics customers for increased scope and new functionality is increasing, and quality is non-negotiable: it is fixed by standards and safety requirements. The SECT-AIR project is addressing these cost and demand issues by focusing on automation in software engineering, with particular emphasis on model-based development
+\end{abstract}
+
+\input{identity}
+\input{intro}
+
+
+
+
+\input{conclusions}
+
+\paragraph*{}\textbf{Acknowledgements} This work was supported by the Aerospace Technology Institute and Innovate UK via the SECT-AIR grant, project number 113099.
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography,bme}  % sigproc.bib is the name of the Bibliography 
+
+\end{document}
