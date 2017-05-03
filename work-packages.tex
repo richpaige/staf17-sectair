@@ -53,15 +53,15 @@ profiles for UML and SysML, maximising reuse (e.g., when two or more profiles sh
 technology such as Eclipse Papyrus in combination with legacy modelling technology, such as Artisan PTC Modeller. A particular objective of this work package is to
 ensure that any enabling model transformation technology is efficient, even when applied to large and complicated models. As such, WP4 is investigating 
 \textit{incremental} model transformations, where small changes to the source models mean that only small parts of the transformations need to be executed
-again.
+again. One of the techniques that will be considered for use is property traces, which have been used to support incremental code generation \cite{OgunyomiRK15}.
 
 
-\item Generating text. A particular use case for generation of text is producing
+\item Generating text and documentation. A particular use case for generation of text is producing
 template \textit{assurance cases} from engineering artefacts (e.g., UML design models). Template assurance cases provide the structure and outline of an assurance
 argument that -- after refinement and instantiation -- will be delivered to a certifying authority along with evidence (e.g., test data, traceability data). Such arguments are
 and evidence are critical in attempting to convince the certifying authority that a system is acceptably safe to deploy in its environment. Producing assurance cases is
 generally carried out manually and is an expensive process. Recertifying a system where requirements have changed is also a very expensive process. Hence, there is strong
-potential in using model-to-text transformatio to at least partly automate the process of producing assurance cases.
+benefit from  using model-to-text transformation to at least partly automate the process of producing assurance cases. SECT-AIR will investigate preliminary work on using weaving models \cite{HawkinsHKPK15} to underpin the process of generating template assurance cases from engineering artefacts supplied by industry partners.
 \end{itemize}
 
 Case studies from industry partners focusing on security and safety-critical systems development are being identified to help demonstrate the effectiveness
